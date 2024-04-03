@@ -8,3 +8,4 @@ numpy
 tqdm
 more-itertools
 ffmpeg-python>=0.2.0
+pydub
