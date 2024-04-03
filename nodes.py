@@ -176,7 +176,7 @@ class MuseTalkRun:
                 continue
             
             combine_frame = get_image(ori_frame,res_frame,bbox)
-            cv2.imwrite(f"{result_img_save_path}/{str(i).zfill(8)}.png",combine_frame)
+            #cv2.imwrite(f"{result_img_save_path}/{str(i).zfill(8)}.png",combine_frame)
             image=Image.fromarray(cv2.cvtColor(combine_frame,cv2.COLOR_BGR2RGB))
             #image=Image.fromarray(np.clip(combine_frame, 0, 255).astype(np.uint8))
             image_tensor_out = torch.tensor(np.array(image).astype(np.float32) / 255.0)  # Convert back to CxHxW
