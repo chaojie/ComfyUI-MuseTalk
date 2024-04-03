@@ -1,0 +1,10 @@
+accelerate
+tensorflow
+tensorboard
+opencv-python
+soundfile
+mmpose
+numpy
+tqdm
+more-itertools
+ffmpeg-python>=0.2.0
