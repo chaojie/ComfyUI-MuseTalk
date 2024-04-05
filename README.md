@@ -1,3 +1,6 @@
+A better and easier to install version 
+https://github.com/kijai/ComfyUI-MuseTalk-KJ
+
 # ComfyUI-MuseTalk
 
 ## workflow
