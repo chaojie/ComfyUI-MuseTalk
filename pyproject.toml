@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-musetalk"
+description = "ComfyUI MuseTalk"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["accelerate", "tensorflow", "tensorboard", "opencv-python", "soundfile", "mmpose", "numpy", "tqdm", "more-itertools", "ffmpeg-python>=0.2.0", "pydub"]
+
+[project.urls]
+Repository = "https://github.com/chaojie/ComfyUI-MuseTalk"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-MuseTalk"
+Icon = ""
